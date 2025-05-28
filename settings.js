@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id make sure it starts with malvin~
+SESSION_ID: process.env.SESSION_ID || "malvin~xm10zQSZ#lbaCuHY0loGkOg2zLiFSU5K45sMev3a-y-fu5B8Ue04",
+// 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+BOT_NAME: process.env.BOT_NAME || "clef",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -24,7 +24,7 @@ MODE: process.env.MODE || "public",
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
+        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY clef😆*",
 // set the auto reply massage on status reply  
 
 
